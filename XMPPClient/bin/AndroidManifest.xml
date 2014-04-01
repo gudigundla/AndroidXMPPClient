@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.apache.android.xmpp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application  android:name="XMPPDemosApplication"
+            android:label="XMPP Demo">
+        <activity android:name=".XMPPClient" android:label="XMPPClient">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 

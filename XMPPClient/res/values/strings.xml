@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XMPPClient</string>
+    <string name="hostValue">local IP</string>
+    <string name="portValue">5222</string>
+    <string name="serviceValue">XMPP server name</string>
+    <string name="userID">admin</string>
+    <string name="password">password</string>
+    <string name="anotherID">user@your XMPP server name</string>
+</resources>
