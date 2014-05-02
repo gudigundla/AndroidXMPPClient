@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:xmpp="http://schemas.android.com/apk/res-auto" >
+    
+ <item
+        android:id="@+id/action_newChat"
+        android:orderInCategory="100"
+        android:icon="@drawable/new_chat"
+        xmpp:showAsAction="always"
+        android:title="@string/newChat"/>
+ <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings"
+        xmpp:showAsAction="always"
+        android:title="@string/settings"/>
+</menu>

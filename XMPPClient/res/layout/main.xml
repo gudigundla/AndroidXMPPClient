@@ -4,51 +4,37 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <Button android:id="@+id/setup"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Setup">
-    </Button>
-    <LinearLayout 
-                  android:orientation="horizontal"
-                  android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-            >
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Recipient:"
-                android:minWidth="70dp"
-                />
-        <EditText android:id="@+id/recipient"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:singleLine="true"
-                  android:textSize="16sp"
-                  android:autoText="false"
-                  android:text="@string/anotherID"
-                  android:minWidth="250dp"
-                  android:capitalize="none"
-                  android:scrollHorizontally="true"/>
-    </LinearLayout>
     <ListView android:id="@+id/listMessages"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_weight="1"
               android:scrollbars="horizontal"
             />
+    
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    >
+    
     <EditText android:id="@+id/sendText"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:singleLine="true"
               android:textSize="16sp"
+              android:layout_weight="1" 
+              android:hint="@string/message"
               android:autoText="false"
               android:capitalize="none"
               android:scrollHorizontally="true"/>
     <Button android:id="@+id/send"
-            android:layout_width="fill_parent"
+            android:layout_width="80dp"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
             android:layout_height="wrap_content"
-            android:text="Send">
+            android:text="@string/send">
     </Button>
+    </LinearLayout>
 </LinearLayout>
 

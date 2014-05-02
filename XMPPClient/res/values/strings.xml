@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">XMPPClient</string>
-    <string name="hostValue">local IP</string>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation" >
+    <string name="app_name">XMPP Client</string>
+    <string name="hostValue">12.34.56.78</string>
     <string name="portValue">5222</string>
-    <string name="serviceValue">XMPP server name</string>
+    <string name="serviceValue">xmpp-server</string>
     <string name="userID">admin</string>
     <string name="password">password</string>
-    <string name="anotherID">user@your XMPP server name</string>
+    <string name="anotherID">user@xmpp-server</string>
+    <string name="settings">Settings</string>
+    <string name="xmppSettings">XMPP Settings</string>
+    <string name="recipient">Recipient:</string>
+    <string name="message">enter message here..</string>
+    <string name="send">Send</string>
+    <string name="activityName">XMPPClient</string>
+    <string name="applicationName">XMPPDemosApplication</string>
+    <string name="newChat">New Chat</string>
+    <string name="actionbarTitle">Hari Gudigundla</string>
+    
 </resources>
